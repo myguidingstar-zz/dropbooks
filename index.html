@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Dropbooks</title>
+
+<style type="text/css" title="currentStyle">
+@import "jquery/plugins/datatables/media/css/demo_page.css";
+@import "jquery/plugins/datatables/media/css/demo_table.css";
+@import "profiles/test/style.css";
+</style>
+
+<script type='text/javascript' src='jquery/jquery.min.js'></script>
+<script type='text/javascript' src='libs/json.js'></script>
+<script type='text/javascript' src='jquery/plugins/xmldom/jquery.xmldom.js'></script>
+<script type='text/javascript' src='jquery/plugins/jquery.listAttributes.js'></script>
+<script type="text/javascript" src="jquery/plugins/datatables/media/js/jquery.dataTables.js"></script>
+<script type='text/javascript' src='library/jquery.fs.js'></script>
+<script type='text/javascript' src='library/jquery.locallibrary.js'></script>
+<script type='text/javascript' src='formats/jquery.fb2.js'></script>
+
+<script type='text/javascript' src='index.js'></script>
+
+<body>
+  <table class="pagetable"><tr>
+  <td>
+  <div class="leftsidebar">
+  Загрузка новой книги: <input type="file" id="uploadbook" name="uploadbook"/><br/>
+  </div>
+  </td>
+  <td>
+
+    <div class="main">
+    Имеющиеся книги:<br/>
+    <div id="bookslist"></div>
+    </div>
+
+  </td>
+  </tr></table>
+  
+  <div id="bookBodyWrapper" class="bookBodyWrapper"></div>
+  
+</body>
+</html>

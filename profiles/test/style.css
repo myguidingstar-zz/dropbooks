@@ -1,0 +1,17 @@
+.leftsidebar {
+  top: 0px;
+  left: 0px;
+  display: inline-block;
+  height: 100%;
+  width: 250px;
+  float:left;
+} 
+
+.main {
+  display: inline-block;
+  float:left;
+}
+
+.pagetable tbody tr td {
+  vertical-align: top;
+}
