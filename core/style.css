@@ -1,0 +1,50 @@
+.ui-progressbar-value {
+    background-image: url(images/pbar-ani.gif);
+}
+
+.ui-progressbar {
+    height: 1em;
+}
+
+.ui-widget {
+    font-size: 1em;
+}
+
+tr.even {
+    background-color: #EEE;
+}
+
+tr.odd {
+    background-color: #DDD;
+}
+
+tr.odd td.sorting_1 {
+background-color: #CCC;
+}
+
+tr.even td.sorting_1 {
+background-color: #DDD;
+}
+
+.bookimage {
+text-align: center;
+}
+
+.book-body {
+text-align: justify;
+text-align-last: left;
+}
+
+.section-epigraph, .section-epigraph-author {
+text-align: right;
+font-style: italic;
+}
+
+.section-epigraph-author {
+font-weight:bold;
+}
+
+.ui-widget {
+font-family: Arial, Verdana, sans-serif;
+font-size: 1em;
+}
