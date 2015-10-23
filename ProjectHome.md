@@ -1,0 +1,1 @@
+Dropbooks is a cross-platform ebook reading application with the library synchronization feature and a link to your Dropbox account. Moreover, the application always saves the information about the last read page and you will be able to comfortably continue reading with the same page on any device, wether it is a PC, netbook, tablet PC or mobile phone.
